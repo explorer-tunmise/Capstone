@@ -1,0 +1,70 @@
+.navBar {
+    display: flex;
+    background-color: #DB261A;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    padding: 0 38px 0 38px;
+    align-items: center;
+    justify-content: space-between;
+    height: 50px;
+    color: white;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 25px;
+}
+.fieldSet {
+    margin-top: 150px;
+    width: 600px;
+    border: none;
+    background-color: #ffe4e2;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 500px; 
+}
+.callToLogIn {
+    color:#DB261A;
+    font-weight: bold;
+    font-size: 30px;
+}
+.options {
+    display: flex;
+    flex-direction: column;
+    
+    justify-content: space-between;
+    row-gap: 20px;
+}
+.input-logo input, .email-password input {
+    border-color:#DB261A;
+    border-radius: 6px;
+    padding: 6px 28px 6px 28px;
+}
+.email-password div {
+    display: flex;
+    flex-direction: column;
+   
+}
+.line {
+    height: 10px;
+    background-color: #DB261A;
+}
+
+button {
+    background-color: #DB261A;
+    border: none;
+    padding: 6px 70px 6px 70px;
+    
+    margin-top: 10px;
+    border-radius: 8px;
+}
+button a {
+    text-decoration: none;
+    color: white;
+}
